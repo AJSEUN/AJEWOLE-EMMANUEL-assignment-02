@@ -11,7 +11,6 @@ function sumOfNumbers(arrayOfNumbers) {
         total += arrayOfNumbers[i]
     }
     console.log(total);
-    // return arrayOfNumbers.length;
 }
 
 sumOfNumbers([123,155,134,205,45])
