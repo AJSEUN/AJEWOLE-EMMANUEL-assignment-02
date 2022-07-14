@@ -10,24 +10,23 @@ function sumOfNumbers(arrayOfNumbers) {
     for (var i in arrayOfNumbers) {
         total += arrayOfNumbers[i]
     }
-    console.log(total);
+    return total;
 }
 
-sumOfNumbers([123,155,134,205,45])
+assignment.sumOfNumbers = sumOfNumbers;
 
 
 // Challenge 2
 function countEvenNumbers(arrayOfNumbers) {
-    let count = 0
-    for (i=0; i< arrayOfNumbers.length; i++){
+    let evenNumbers = 0
+    for (let i=0; i < arrayOfNumbers.length; i++){
         if (arrayOfNumbers[i] % 2 == 0){
-            count ++
+            evenNumbers ++;
         }
     }
-    console.log(count)
+  return evenNumbers
 }
-
-countEvenNumbers([4,5,7,8,14,45,76])
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
